@@ -7,7 +7,7 @@ export interface Product {
   price: number;
   stock: number;
   description: string;
-  image?: string; // emoji o URL
+  image?: string; // URL de la foto real (ej: /images/bebidas/coca-cola-500ml.jpg)
 }
 
 export interface CartItemType {
