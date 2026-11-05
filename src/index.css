@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f6f6f8; color: #222; }
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+.main { flex: 1; max-width: 960px; width: 100%; margin: 0 auto; padding: 1.5rem; }
+
+.header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.5rem; background: #d62828; color: #fff; }
+.header a { color: #fff; text-decoration: none; margin-left: 1rem; }
+.header nav a.active { text-decoration: underline; font-weight: bold; }
+.logo { font-weight: bold; font-size: 1.2rem; margin-left: 0 !important; }
+.footer { text-align: center; padding: 1rem; background: #222; color: #ddd; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.card { background: #fff; padding: 1rem; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.1); text-align: center; }
+.card-emoji { font-size: 3rem; }
+.card-emoji.big { font-size: 5rem; }
+.card h3 a { color: inherit; text-decoration: none; }
+.muted { color: #777; text-transform: capitalize; margin: 0; }
+.price { font-weight: bold; font-size: 1.2rem; }
+
+button { background: #d62828; color: #fff; border: none; padding: .5rem 1rem; border-radius: 6px; cursor: pointer; }
+button:disabled { background: #aaa; cursor: not-allowed; }
+button.danger { background: #555; }
+input[type="number"] { width: 70px; padding: .4rem; }
+select { padding: .4rem; }
+
+.row { display: flex; gap: .75rem; align-items: center; margin: 1rem 0; }
+.center { text-align: center; margin-top: 3rem; }
+.big-link { display: inline-block; margin-top: 1rem; padding: 1rem 2rem; background: #d62828; color: #fff; border-radius: 8px; text-decoration: none; font-size: 1.2rem; }
+.success { color: #2a9d3f; }
+
+.cart-list { list-style: none; padding: 0; }
+.cart-item { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr auto; gap: .5rem; align-items: center; background: #fff; padding: .75rem; margin-bottom: .5rem; border-radius: 8px; }
