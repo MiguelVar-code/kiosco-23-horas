@@ -1,6 +1,9 @@
 # Kiosco 23 Horas
-
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Mini-app de un kiosco de barrio.
+EQUIPO DE TRABAJO: Varela Miguel Marcelo - Romano Jesus Valentin - Salomón Riveras José Alejandro
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 
 - **Parte 1 (tag `parte-1`):** frontend con React + TypeScript + Vite + React Router, usando datos locales.
 - **Parte 2 (tag `parte-2`):** backend con FastAPI + SQLite + SQLAlchemy + Pydantic y frontend conectado a la API.
